@@ -1,0 +1,17 @@
+# Build output
+*.exe
+
+# MSVC intermediates
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# MinGW intermediates
+*.o
+
+# Editor / OS
+.vs/
+.vscode/
+Thumbs.db

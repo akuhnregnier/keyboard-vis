@@ -6,4 +6,4 @@ Keys are tracked by scan code, so the layout stays correct regardless of the act
 
 ## Build
 
-Run `build.bat` (uses MSVC if available, otherwise MinGW gcc), or run the prebuilt `KeyViz.exe`.
+Run `build.bat` (uses MSVC if available, otherwise MinGW gcc) to produce `KeyViz.exe`.
