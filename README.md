@@ -7,3 +7,8 @@ Keys are tracked by scan code, so the layout stays correct regardless of the act
 ## Build
 
 Run `build.bat` (uses MSVC if available, otherwise MinGW gcc) to produce `KeyViz.exe`.
+
+If it reports `No C compiler found`, install one of:
+
+- **MinGW-w64**: `winget install BrechtSanders.WinLibs.POSIX.UCRT`, then open a new terminal so `gcc` is on the PATH.
+- **MSVC**: install the Visual Studio Build Tools and run `build.bat` from a "Developer Command Prompt for VS".
